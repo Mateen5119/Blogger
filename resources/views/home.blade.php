@@ -9,7 +9,7 @@
                     <div>
                         <div class="font-semibold">{{ $blog['author'] }}</div>
                         <div class="mt-1">{{ $blog['message'] }}</div>
-                        <div class="text-sm text-gray-500 mt-2">{{ $chirp['time'] }}</div>
+                        <div class="text-sm text-gray-500 mt-2">{{ $blog['time'] }}</div>
                     </div>
                 </div>
             </div>
